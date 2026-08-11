@@ -76,7 +76,6 @@
 
 - Day03
 
-
 <table>
   <tr align="center">
     <th>프로젝트</th>
@@ -96,7 +95,6 @@
 </table
 
 - Day04
-
 
 <table>
   <tr align="center">
@@ -118,7 +116,6 @@
 
 - Day05
 
-
 <table>
   <tr align="center">
     <th>프로젝트</th>
@@ -136,3 +133,5 @@
     <td align="left">✅ 완료</td>
   </tr>
 </table
+
+---
