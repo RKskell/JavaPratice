@@ -27,62 +27,109 @@
 - Day01
 
 <table>
-  <!-- 제목행: 모두 가운데 정렬 -->
   <tr align="center">
     <th>프로젝트</th>
     <th>설명</th>
     <th>상태</th>
   </tr>
-  <!-- 내용행 1 -->
   <tr>
     <td align="center">Calculator</td>
     <td align="left">기본 사칙연산 계산기</td>
-    <td align="left"><input type="checkbox" checked disabled> 완료</td>
+    <td align="left">✅ 완료</td>
   </tr>
-  <!-- 내용행 2 -->
   <tr>
     <td align="center">CalculatorEnhanced</td>
     <td align="left">개선 버전 사칙연산 계산기</td>
-    <td align="left"><input type="checkbox" disabled> 진행중</td>
+    <td align="left">🔄 진행중</td>
   </tr>
-  <!-- 내용행 3 -->
   <tr>
     <td align="center">GradeCalculator</td>
     <td align="left">기본 학점 계산기</td>
-    <td align="left"><input type="checkbox" checked disabled> 완료</td>
+    <td align="left">✅ 완료</td>
   </tr>
-  <!-- 내용행 4 -->
   <tr>
     <td align="center">GradeCalculatorEnhanced</td>
     <td align="left">개선 버전 학점 계산기</td>
-    <td align="left"><input type="checkbox" disabled> 진행중</td>
+    <td align="left">🔄 진행중</td>
   </tr>
 </table>
 
 - Day02
 
-|프로젝트|설명|상태|
-|:------------------:|:-------------|:-----|
-|MultiplicationTable|구구단 프로그램|[x]완료|
-|NumberAnalyzer|숫자 분석 프로그램|[x]완료|
+<table>
+  <tr align="center">
+    <th>프로젝트</th>
+    <th>설명</th>
+    <th>상태</th>
+  </tr>
+  <tr>
+    <td align="center">MultiplicationTable</td>
+    <td align="left">구구단 프로그램</td>
+    <td align="left">✅ 완료</td>
+  </tr>
+  <tr>
+    <td align="center">NumberAnalyzer</td>
+    <td align="left">숫자 분석 프로그램</td>
+    <td align="left">✅ 완료</td>
+  </tr>
+</table
 
 - Day03
 
-|프로젝트|설명|상태|
-|:---:|:---|:---|
-|ArrayStatistics|배열 통계 프로그램|[x]완료|
-|Mode|최빈값 계산기|[x]완료|
+<table>
+  <tr align="center">
+    <th>프로젝트</th>
+    <th>설명</th>
+    <th>상태</th>
+  </tr>
+  <tr>
+    <td align="center">ArrayStatistics</td>
+    <td align="left">배열 통계 프로그램</td>
+    <td align="left">✅ 완료</td>
+  </tr>
+  <tr>
+    <td align="center">Mode</td>
+    <td align="left">최빈값 계산기</td>
+    <td align="left">✅ 완료</td>
+  </tr>
+</table
 
 - Day04
 
-|프로젝트|설명|상태|
-|:---:|:---|:---|
-|PalindromeChecker|회문 판별기|[x]완료|
-|StringParser|문자열 분석기|[x]완료|
+<table>
+  <tr align="center">
+    <th>프로젝트</th>
+    <th>설명</th>
+    <th>상태</th>
+  </tr>
+  <tr>
+    <td align="center">PalindromeChecker</td>
+    <td align="left">회문 판별기</td>
+    <td align="left">✅ 완료</td>
+  </tr>
+  <tr>
+    <td align="center">StringParser</td>
+    <td align="left">문자열 분석기</td>
+    <td align="left">✅ 완료</td>
+  </tr>
+</table
 
 - Day05
 
-|프로젝트|설명|상태|
-|:---:|:---|:---|
-|BankAccountProgram|은행 계좌 프로그램|[]진행중|
-|LottoNumGen|로또 번호 생성기|[x]완료|
+<table>
+  <tr align="center">
+    <th>프로젝트</th>
+    <th>설명</th>
+    <th>상태</th>
+  </tr>
+  <tr>
+    <td align="center">BankAccountProgram</td>
+    <td align="left">은행 계좌 프로그램</td>
+    <td align="left">🔄 진행중</td>
+  </tr>
+  <tr>
+    <td align="center">LottoNumGen</td>
+    <td align="left">로또 번호 생성기</td>
+    <td align="left">✅ 완료</td>
+  </tr>
+</table
