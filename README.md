@@ -26,12 +26,38 @@
 
 - Day01
 
-|프로젝트|설명|상태|
-|:---:|:---|:---|
-|Calculator|기본 사칙연산 계산기|[x]완료|
-|CalculatorEnhanced|개선 버전 사칙연산 계산기|[]진행중|
-|GradeCalculator|기본 학점 계산기|[x]완료|
-|GradeCalculatorEnhanced|개선 버전 학점 계산기|[]진행중|
+<table>
+  <!-- 제목행: 모두 가운데 정렬 -->
+  <tr align="center">
+    <th>프로젝트</th>
+    <th>설명</th>
+    <th>상태</th>
+  </tr>
+  <!-- 내용행 1 -->
+  <tr>
+    <td align="center">Calculator</td>
+    <td align="left">기본 사칙연산 계산기</td>
+    <td align="left"><input type="checkbox" checked disabled> 완료</td>
+  </tr>
+  <!-- 내용행 2 -->
+  <tr>
+    <td align="center">CalculatorEnhanced</td>
+    <td align="left">개선 버전 사칙연산 계산기</td>
+    <td align="left"><input type="checkbox" disabled> 진행중</td>
+  </tr>
+  <!-- 내용행 3 -->
+  <tr>
+    <td align="center">GradeCalculator</td>
+    <td align="left">기본 학점 계산기</td>
+    <td align="left"><input type="checkbox" checked disabled> 완료</td>
+  </tr>
+  <!-- 내용행 4 -->
+  <tr>
+    <td align="center">GradeCalculatorEnhanced</td>
+    <td align="left">개선 버전 학점 계산기</td>
+    <td align="left"><input type="checkbox" disabled> 진행중</td>
+  </tr>
+</table>
 
 - Day02
 
