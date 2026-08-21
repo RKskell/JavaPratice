@@ -1,8 +1,7 @@
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
+/*
 class Start 
 {
     int startSet(BufferedReader br) throws IOException
@@ -88,6 +87,62 @@ public class Calculator {
             System.out.println(e.getMessage());
         } catch (IOException e) {
             System.out.println("입력 처리 중 오류 발생");
+        }
+    }
+}
+*/
+
+public class Calculator {
+    public static void main(String[] args) throws Exception {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        System.out.println("[계산기]");
+        System.out.println("1. 덧셈");
+        System.out.println("2. 뺄셈");
+        System.out.println("3. 곱셈");
+        System.out.println("4. 나눗셈");
+        System.out.println("5. 종료");
+        System.out.print("원하는 기능 입력 : ");
+
+        int Input = Integer.parseInt(br.readLine());
+
+        switch (Input)
+        {
+            case 1:
+                System.out.print("덧셈할 두 수 입력(공백 구분) : ");
+                String[] AddNum = br.readLine().split(" ");
+                int AddResult = Integer.parseInt(AddNum[0]) + Integer.parseInt(AddNum[1]);
+                System.out.println("덧셈 결과 : " + AddResult);
+                break;
+                
+            case 2:
+                System.out.print("뺄셈할 두 수 입력(공백 구분) : ");
+                String[] SubNum = br.readLine().split(" ");
+                int SubResult = Integer.parseInt(SubNum[0]) - Integer.parseInt(SubNum[1]);
+                System.out.println("뺄셈 결과 : " + SubResult);
+                break;
+
+            case 3:
+                System.out.print("곱셈할 두 수 입력(공백 구분) : ");
+                String[] MultNum = br.readLine().split(" ");
+                int MultResult = Integer.parseInt(MultNum[0]) * Integer.parseInt(MultNum[1]);
+                System.out.println("곱셈 결과 : " + MultResult);
+                break;
+
+            case 4:
+                System.out.print("나눗셈할 두 수 입력(공백 구분) : ");
+                String[] DivNum = br.readLine().split(" ");
+                double DivResult = Double.parseDouble(DivNum[0]) / Double.parseDouble(DivNum[1]);
+                System.out.printf("나눗셈 결과 : %.2f \n", DivResult);
+                break;
+
+            case 5:
+                System.out.println("프로그램을 종료합니다.");
+                return;
+
+            default:
+                System.out.print("잘못된 입력입니다.");
+                break;
         }
     }
 }

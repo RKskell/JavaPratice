@@ -34,12 +34,12 @@
   </tr>
   <tr>
     <td align="center">Calculator</td>
-    <td align="left">기본 사칙연산 계산기</td>
+    <td align="left">사칙연산 계산기</td>
     <td align="left">✅ 완료</td>
   </tr>
   <tr>
     <td align="center">GradeCalculator</td>
-    <td align="left">기본 학점 계산기</td>
+    <td align="left">학점 계산기</td>
     <td align="left">✅ 완료</td>
   </tr>
 </table>
