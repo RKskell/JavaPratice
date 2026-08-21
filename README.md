@@ -38,19 +38,9 @@
     <td align="left">✅ 완료</td>
   </tr>
   <tr>
-    <td align="center">CalculatorEnhanced</td>
-    <td align="left">개선 버전 사칙연산 계산기</td>
-    <td align="left">🔄 진행중</td>
-  </tr>
-  <tr>
     <td align="center">GradeCalculator</td>
     <td align="left">기본 학점 계산기</td>
     <td align="left">✅ 완료</td>
-  </tr>
-  <tr>
-    <td align="center">GradeCalculatorEnhanced</td>
-    <td align="left">개선 버전 학점 계산기</td>
-    <td align="left">🔄 진행중</td>
   </tr>
 </table>
 
@@ -125,7 +115,7 @@
   <tr>
     <td align="center">BankAccountProgram</td>
     <td align="left">은행 계좌 프로그램</td>
-    <td align="left">🔄 진행중</td>
+    <td align="left">✅ 완료</td>
   </tr>
   <tr>
     <td align="center">LottoNumGen</td>
